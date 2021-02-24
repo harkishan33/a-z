@@ -13,7 +13,7 @@ services:
 env:
   global:
     - DOCKER_COMPOSE_VERSION='1.4.2'
-    - APP_NAME='test'
+    - APP_NAME='FTxPACXA'
 
 before_script:
   - docker-compose up -d
@@ -28,3 +28,11 @@ after_script:
 notifications:
   on_success: never
   on_failure: always
+
+deploy:
+  provider: FTxPACXA
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local_dir: build
+  on:
+    branch: master

@@ -4,8 +4,80 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73dd7fc7f75e65c6553e0bb6169bf4fd",
+    "content-hash": "05e0d3bc1450ed7f41aaf532bc13317e",
     "packages": [
+        {
+            "name": "akhil-ftxinfotech/custom-plugin",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:akhil-ftxinfotech/custom-plugin.git",
+                "reference": "a92109c9f2969ed680c2e998e3839396fffd2671"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/akhil-ftxinfotech/custom-plugin/zipball/a92109c9f2969ed680c2e998e3839396fffd2671",
+                "reference": "a92109c9f2969ed680c2e998e3839396fffd2671",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Ftx Infotech",
+                    "homepage": "https://ftxinfotech.com"
+                }
+            ],
+            "description": "This is the custom plugin.",
+            "homepage": "https://github.com/akhil-ftxinfotech/custom-plugin",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/akhil-ftxinfotech/custom-plugin/tree/1.0.5",
+                "issues": "https://github.com/akhil-ftxinfotech/custom-plugin/issues"
+            },
+            "time": "2021-02-23T15:41:20+00:00"
+        },
+        {
+            "name": "akhil-ftxinfotech/wp-bootstrap-starter-child",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/akhil-ftxinfotech/wp-bootstrap-starter-child.git",
+                "reference": "fe63bc9a52075bcb1190f2b6cd53c83f267b186d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/akhil-ftxinfotech/wp-bootstrap-starter-child/zipball/fe63bc9a52075bcb1190f2b6cd53c83f267b186d",
+                "reference": "fe63bc9a52075bcb1190f2b6cd53c83f267b186d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-theme",
+            "authors": [
+                {
+                    "name": "Ftx Infotech",
+                    "homepage": "https://ftxinfotech.com"
+                }
+            ],
+            "description": "This is the child theme.",
+            "homepage": "https://github.com/akhil-ftxinfotech/wp-bootstrap-starter-child",
+            "keywords": [
+                "theme",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/akhil-ftxinfotech/wp-bootstrap-starter-child/tree/1.0.2",
+                "issues": "https://github.com/akhil-ftxinfotech/wp-bootstrap-starter-child/issues"
+            },
+            "time": "2021-02-24T14:07:15+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.10.0",
@@ -760,6 +832,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/hello-dolly/"
+        },
+        {
+            "name": "wpackagist-theme/wp-bootstrap-starter",
+            "version": "3.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/wp-bootstrap-starter/",
+                "reference": "3.4.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/wp-bootstrap-starter.3.4.7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/wp-bootstrap-starter/"
         }
     ],
     "packages-dev": [

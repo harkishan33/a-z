@@ -27,13 +27,6 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org",
-      "options":  {
-        "http": {
-          "header": [
-            "API-TOKEN: 200ba3fd306359f53f9bab267f4fe2dc5c6f6f10"
-          ]
-        }
-      }
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
     },
     {
@@ -65,7 +58,10 @@
   },
   "config": {
     "optimize-autoloader": true,
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "github-oauth": {
+      "github.com": "da86215674ff00f2dbfcdd1f6a5a092a879255b4"
+    }
   },
   "minimum-stability": "dev",
   "prefer-stable": true,

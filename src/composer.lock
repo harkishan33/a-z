@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05e0d3bc1450ed7f41aaf532bc13317e",
+    "content-hash": "0b5c79561f7a2edddece4aaf12ba7aec",
     "packages": [
         {
             "name": "akhil-ftxinfotech/custom-plugin",
